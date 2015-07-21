@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomerLibrary", "CustomerLibrary.csproj", "{A78C1F77-DBD9-4C17-80DB-AA672AAE464D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsCustomerUI", "..\WindowsCustomerUI\WindowsCustomerUI.csproj", "{ACB63E92-929E-4035-ADE7-9F3CFACA9F7B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{A78C1F77-DBD9-4C17-80DB-AA672AAE464D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A78C1F77-DBD9-4C17-80DB-AA672AAE464D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A78C1F77-DBD9-4C17-80DB-AA672AAE464D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACB63E92-929E-4035-ADE7-9F3CFACA9F7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACB63E92-929E-4035-ADE7-9F3CFACA9F7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACB63E92-929E-4035-ADE7-9F3CFACA9F7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACB63E92-929E-4035-ADE7-9F3CFACA9F7B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
