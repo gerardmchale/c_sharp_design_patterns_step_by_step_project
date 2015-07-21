@@ -62,6 +62,9 @@
             // 
             this.cmbCustomerType.DropDownWidth = 110;
             this.cmbCustomerType.FormattingEnabled = true;
+            this.cmbCustomerType.Items.AddRange(new object[] {
+            "Lead",
+            "Customer"});
             this.cmbCustomerType.Location = new System.Drawing.Point(102, 11);
             this.cmbCustomerType.Margin = new System.Windows.Forms.Padding(2);
             this.cmbCustomerType.Name = "cmbCustomerType";
