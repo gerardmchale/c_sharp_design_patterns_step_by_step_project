@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomerLibrary", "Customer
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsCustomerUI", "..\WindowsCustomerUI\WindowsCustomerUI.csproj", "{ACB63E92-929E-4035-ADE7-9F3CFACA9F7B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "..\DataAccess\DataAccess.csproj", "{2DD6DA15-EAAB-4ECA-8087-2EDD400AACEE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{ACB63E92-929E-4035-ADE7-9F3CFACA9F7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ACB63E92-929E-4035-ADE7-9F3CFACA9F7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ACB63E92-929E-4035-ADE7-9F3CFACA9F7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DD6DA15-EAAB-4ECA-8087-2EDD400AACEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DD6DA15-EAAB-4ECA-8087-2EDD400AACEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DD6DA15-EAAB-4ECA-8087-2EDD400AACEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DD6DA15-EAAB-4ECA-8087-2EDD400AACEE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
