@@ -8,20 +8,19 @@ using System.Threading.Tasks;
 
 namespace FactoryCustomer
 {
-    public class Factory
+    public static class Factory
     {
-        private IList<ICustomer> customers = new List<ICustomer>();
+        private static IList<ICustomer> customers = new List<ICustomer>();
 
-        public ICustomer Create(int customerType)
+        static Factory()
         {
-            if (customerType == 0)
-            {
-                return new Lead();
-            }
-            else
-            {
-                return new Customer();
-            }
+            customers.Add(new Lead());
+            customers.Add(new Customer());
+        }
+
+        public static ICustomer Create(int customerType)
+        {
+            return customers[customerType];
         }
     }
 }
