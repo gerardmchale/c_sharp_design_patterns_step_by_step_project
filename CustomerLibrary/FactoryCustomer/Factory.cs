@@ -10,16 +10,21 @@ namespace FactoryCustomer
 {
     public static class Factory
     {
-        private static IList<ICustomer> customers = new List<ICustomer>();
+        private static IList<ICustomer> customers = null;
 
-        static Factory()
+        private static void LoadCustomers()
         {
+            customers = new List<ICustomer>();
             customers.Add(new Lead());
             customers.Add(new Customer());
         }
 
         public static ICustomer Create(int customerType)
         {
+            if (customers == null)
+            {
+                LoadCustomers();
+            }
             return customers[customerType];
         }
     }
