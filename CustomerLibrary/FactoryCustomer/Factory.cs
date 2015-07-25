@@ -10,22 +10,24 @@ namespace FactoryCustomer
 {
     public static class Factory
     {
-        private static IList<ICustomer> customers = null;
+        private static Lazy<IList<ICustomer>> customers = null;
 
-        private static void LoadCustomers()
+        static Factory()
         {
-            customers = new List<ICustomer>();
-            customers.Add(new Lead());
-            customers.Add(new Customer());
+            customers = new Lazy<IList<ICustomer>>(() => LoadCustomers());
+        }
+
+        private static IList<ICustomer> LoadCustomers()
+        {
+            var customerList = new List<ICustomer>();
+            customerList.Add(new Lead());
+            customerList.Add(new Customer());
+            return customerList;
         }
 
         public static ICustomer Create(int customerType)
         {
-            if (customers == null)
-            {
-                LoadCustomers();
-            }
-            return customers[customerType];
+            return customers.Value[customerType];
         }
     }
 }
