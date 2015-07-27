@@ -19,5 +19,10 @@ namespace CustomerLibrary
         {
             // Let this be define by the child classes 
         }
+
+        public ICustomer Clone()
+        {
+            return (ICustomer)this.MemberwiseClone();
+        }
     }
 }

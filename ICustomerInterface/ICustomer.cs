@@ -14,5 +14,6 @@ namespace ICustomerInterface
         DateTime BillDate { get; set; }
         string Address { get; set; }
         void Validate();
+        ICustomer Clone();
     }
 }
