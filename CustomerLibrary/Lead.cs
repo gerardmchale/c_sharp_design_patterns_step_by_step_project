@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace CustomerLibrary
 {
-    public class Lead : CustomerBase, ICustomer
+    public class Lead : CustomerBase
     {
         public override void Validate()
         {
