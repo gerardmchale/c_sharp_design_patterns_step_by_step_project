@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace CustomerLibrary
 {
-    public class CustomerBase : ICustomer
+    public abstract class CustomerBase : ICustomer
     {
         public string CustomerName { get; set; }
         public string PhoneNumber { get; set; }
@@ -15,10 +15,7 @@ namespace CustomerLibrary
         public DateTime BillDate { get; set; }
         public string Address { get; set; }
 
-        public virtual void Validate()
-        {
-            // Let this be define by the child classes 
-        }
+        public abstract void Validate();
 
         public ICustomer Clone()
         {
