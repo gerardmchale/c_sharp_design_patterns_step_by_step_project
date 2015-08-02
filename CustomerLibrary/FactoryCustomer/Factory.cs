@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace FactoryCustomer
 {
-    public static class Factory
+    public static class Factory<T>
     {
         private static IUnityContainer cont = null;
 
@@ -20,9 +20,9 @@ namespace FactoryCustomer
             cont.RegisterType<ICustomer, Customer>("1");
         }
 
-        public static ICustomer Create(int customerType)
+        public static T Create(int customerType)
         {
-            return cont.Resolve<ICustomer>(customerType.ToString());
+            return cont.Resolve<T>(customerType.ToString());
         }
     }
 }
