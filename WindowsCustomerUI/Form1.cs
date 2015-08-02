@@ -23,7 +23,8 @@ namespace WindowsCustomerUI
         private void btnAdd_Click(object sender, EventArgs e)
         {
             ICustomer icust = null;
-            icust = Factory<ICustomer>.Create(cmbCustomerType.SelectedIndex);
+            var customerType = cmbCustomerType.SelectedItem.ToString();
+            icust = Factory<ICustomer>.Create(customerType);
             icust.CustomerName = txtCustomerName.Text;
             icust.Address = txtAddress.Text;
             icust.PhoneNumber = txtPhoneNumber.Text;

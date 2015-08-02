@@ -13,15 +13,15 @@ namespace FactoryCustomer
     {
         private static IUnityContainer cont = null;
 
-        public static T Create(int customerType)
+        public static T Create(string type)
         {
             if (cont == null)
             {
                 cont = new UnityContainer();
-                cont.RegisterType<ICustomer, Lead>("0");
-                cont.RegisterType<ICustomer, Customer>("1");
+                cont.RegisterType<ICustomer, Lead>("Lead");
+                cont.RegisterType<ICustomer, Customer>("Customer");
             }
-            return cont.Resolve<T>(customerType.ToString());
+            return cont.Resolve<T>(type);
         }
     }
 }
