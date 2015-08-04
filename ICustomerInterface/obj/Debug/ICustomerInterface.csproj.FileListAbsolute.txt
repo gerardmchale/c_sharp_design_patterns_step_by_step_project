@@ -2,3 +2,4 @@ C:\Users\mchaleg.ELECTROROUTE\Documents\BitBucket\gerard_repositories\c_sharp_de
 C:\Users\mchaleg.ELECTROROUTE\Documents\BitBucket\gerard_repositories\c_sharp_design_patterns_step_by_step_project\ICustomerInterface\bin\Debug\ICustomerInterface.pdb
 C:\Users\mchaleg.ELECTROROUTE\Documents\BitBucket\gerard_repositories\c_sharp_design_patterns_step_by_step_project\ICustomerInterface\obj\Debug\ICustomerInterface.dll
 C:\Users\mchaleg.ELECTROROUTE\Documents\BitBucket\gerard_repositories\c_sharp_design_patterns_step_by_step_project\ICustomerInterface\obj\Debug\ICustomerInterface.pdb
+C:\Users\mchaleg.ELECTROROUTE\Documents\BitBucket\gerard_repositories\c_sharp_design_patterns_step_by_step_project\ICustomerInterface\obj\Debug\ICustomerInterface.csprojResolveAssemblyReference.cache
