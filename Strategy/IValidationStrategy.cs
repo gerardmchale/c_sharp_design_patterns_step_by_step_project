@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace Strategy
 {
-    public interface IValidationStrategy
+    public interface IValidationStrategy<T>
     {
-        void Validate();
+        void Validate(T obj);
     }
 }
