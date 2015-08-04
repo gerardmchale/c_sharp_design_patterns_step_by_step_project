@@ -1,4 +1,5 @@
 ﻿using ICustomerInterface;
+using Strategy;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,16 +10,8 @@ namespace CustomerLibrary
 {
     public class Lead : CustomerBase
     {
-        public override void Validate()
+        public Lead(IValidationStrategy<ICustomer> obj) : base(obj)
         {
-            if (CustomerName.Length == 0)
-            {
-                throw new Exception("Customer Name is required");
-            }
-            if (PhoneNumber.Length == 0)
-            {
-                throw new Exception("Phone number is required");
-            }
         }
     }
 }
