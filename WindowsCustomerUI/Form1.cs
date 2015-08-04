@@ -30,6 +30,8 @@ namespace WindowsCustomerUI
             icust.PhoneNumber = txtPhoneNumber.Text;
             icust.BillDate = Convert.ToDateTime(txtBillingDate.Text);
             icust.BillAmount = Convert.ToDecimal(txtBillingAmount.Text);
+
+            icust.Validate();
         }
     }
 }
