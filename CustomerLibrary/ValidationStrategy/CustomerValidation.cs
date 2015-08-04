@@ -20,13 +20,13 @@ namespace ValidationStrategy
             {
                 throw new Exception("Phone number is required");
             }
-            if (obj.BillAmount > 0)
+            if (obj.BillAmount == 0)
             {
                 throw new Exception("Bill is required");
             }
             if (obj.BillDate >= DateTime.Now)
             {
-                throw new Exception("Bill date  is not proper");
+                throw new Exception("Bill date is not proper");
             }
         }
     }
