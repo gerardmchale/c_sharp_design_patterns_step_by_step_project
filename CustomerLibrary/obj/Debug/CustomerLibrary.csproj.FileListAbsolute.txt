@@ -5,3 +5,5 @@ C:\Users\mchaleg.ELECTROROUTE\Documents\BitBucket\gerard_repositories\c_sharp_de
 C:\Users\mchaleg.ELECTROROUTE\Documents\BitBucket\gerard_repositories\c_sharp_design_patterns_step_by_step_project\CustomerLibrary\bin\Debug\ICustomerInterface.dll
 C:\Users\mchaleg.ELECTROROUTE\Documents\BitBucket\gerard_repositories\c_sharp_design_patterns_step_by_step_project\CustomerLibrary\bin\Debug\ICustomerInterface.pdb
 C:\Users\mchaleg.ELECTROROUTE\Documents\BitBucket\gerard_repositories\c_sharp_design_patterns_step_by_step_project\CustomerLibrary\obj\Debug\CustomerLibrary.csprojResolveAssemblyReference.cache
+C:\Users\mchaleg.ELECTROROUTE\Documents\BitBucket\gerard_repositories\c_sharp_design_patterns_step_by_step_project\CustomerLibrary\bin\Debug\Strategy.dll
+C:\Users\mchaleg.ELECTROROUTE\Documents\BitBucket\gerard_repositories\c_sharp_design_patterns_step_by_step_project\CustomerLibrary\bin\Debug\Strategy.pdb

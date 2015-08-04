@@ -6,6 +6,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using ValidationStrategy;
 
 namespace FactoryCustomer
 {
@@ -18,8 +19,10 @@ namespace FactoryCustomer
             if (cont == null)
             {
                 cont = new UnityContainer();
-                cont.RegisterType<ICustomer, Lead>("Lead");
-                cont.RegisterType<ICustomer, Customer>("Customer");
+                cont.RegisterType<ICustomer, Lead>("Lead",
+                    new InjectionConstructor(new LeadValidation()));
+                cont.RegisterType<ICustomer, Customer>("Customer",
+                    new InjectionConstructor(new CustomerValidation()));
             }
             return cont.Resolve<T>(type);
         }

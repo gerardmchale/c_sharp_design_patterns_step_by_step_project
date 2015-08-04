@@ -19,3 +19,7 @@ C:\Users\mchaleg.ELECTROROUTE\Documents\BitBucket\gerard_repositories\c_sharp_de
 C:\Users\mchaleg.ELECTROROUTE\Documents\BitBucket\gerard_repositories\c_sharp_design_patterns_step_by_step_project\WindowsCustomerUI\bin\Debug\Microsoft.Practices.Unity.xml
 C:\Users\mchaleg.ELECTROROUTE\Documents\BitBucket\gerard_repositories\c_sharp_design_patterns_step_by_step_project\WindowsCustomerUI\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
 C:\Users\mchaleg.ELECTROROUTE\Documents\BitBucket\gerard_repositories\c_sharp_design_patterns_step_by_step_project\WindowsCustomerUI\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.xml
+C:\Users\mchaleg.ELECTROROUTE\Documents\BitBucket\gerard_repositories\c_sharp_design_patterns_step_by_step_project\WindowsCustomerUI\bin\Debug\Strategy.dll
+C:\Users\mchaleg.ELECTROROUTE\Documents\BitBucket\gerard_repositories\c_sharp_design_patterns_step_by_step_project\WindowsCustomerUI\bin\Debug\Strategy.pdb
+C:\Users\mchaleg.ELECTROROUTE\Documents\BitBucket\gerard_repositories\c_sharp_design_patterns_step_by_step_project\WindowsCustomerUI\bin\Debug\ValidationStrategy.dll
+C:\Users\mchaleg.ELECTROROUTE\Documents\BitBucket\gerard_repositories\c_sharp_design_patterns_step_by_step_project\WindowsCustomerUI\bin\Debug\ValidationStrategy.pdb

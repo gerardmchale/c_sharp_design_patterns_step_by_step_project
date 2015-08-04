@@ -49,6 +49,10 @@
       <Project>{e27ebd88-0db6-4693-abff-31456daf582b}</Project>
       <Name>ICustomerInterface</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Strategy\Strategy.csproj">
+      <Project>{a119d584-68eb-4118-8be7-8b2846d6ac42}</Project>
+      <Name>Strategy</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

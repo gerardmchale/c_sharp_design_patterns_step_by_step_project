@@ -59,9 +59,17 @@
       <Project>{e27ebd88-0db6-4693-abff-31456daf582b}</Project>
       <Name>ICustomerInterface</Name>
     </ProjectReference>
+    <ProjectReference Include="..\..\Strategy\Strategy.csproj">
+      <Project>{a119d584-68eb-4118-8be7-8b2846d6ac42}</Project>
+      <Name>Strategy</Name>
+    </ProjectReference>
     <ProjectReference Include="..\CustomerLibrary.csproj">
       <Project>{a78c1f77-dbd9-4c17-80db-aa672aae464d}</Project>
       <Name>CustomerLibrary</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ValidationStrategy\ValidationStrategy.csproj">
+      <Project>{bdfd5df9-b310-4b64-b890-6c67a684d6fe}</Project>
+      <Name>ValidationStrategy</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
